@@ -6,6 +6,8 @@
 \alias{tremousser-package}
 \title{tremousser: Tremor Library For Shiny}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 A kit of tools to build charts and dashboards in Shiny with the Tremor library.
 }
 \author{
