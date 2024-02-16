@@ -28,3 +28,11 @@ devtools::install_github("ThinkR-open/tremousser")
 ## Example
 
 *More details to come soon.*
+
+## Code of Conduct
+
+Please note that the `{tremousser}` project is released with a
+[Contributor Code of
+Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
+
+By contributing to this project, you agree to abide by its terms.
