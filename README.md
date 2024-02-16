@@ -1,3 +1,4 @@
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # {tremousser} <img src="man/figures/logo.png" align="right" height="138" alt="" />
@@ -6,7 +7,7 @@
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-
+[![R-CMD-check](https://github.com/ThinkR-open/tremousser/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ThinkR-open/tremousser/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of `{tremousser}` is to help you to build beautiful and
@@ -20,14 +21,14 @@ efficient Shiny applications.
 You can install the development version of tremousser from
 [GitHub](https://github.com/) with:
 
-```r
+``` r
 # install.packages("devtools")
 devtools::install_github("ThinkR-open/tremousser")
 ```
 
 ## Example
 
-_More details to come soon._
+*More details to come soon.*
 
 ## Code of Conduct
 
