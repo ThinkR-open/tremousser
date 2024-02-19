@@ -26,8 +26,9 @@ const config = {
     "@/shiny.react": 'jsmodule["@/shiny.react"]',
   },
   performance: {
-    maxEntrypointSize: 1048576,
-    maxAssetSize: 1048576,
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000,
   },
   stats: { colors: true },
 };
