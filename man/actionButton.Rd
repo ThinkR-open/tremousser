@@ -4,7 +4,7 @@
 \alias{actionButton}
 \title{Button input}
 \usage{
-actionButton(inputId, ...)
+actionButton(inputId, ..., value = default_value)
 }
 \arguments{
 \item{inputId}{The input slot that will be used to access the value.}

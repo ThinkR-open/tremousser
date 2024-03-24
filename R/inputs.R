@@ -35,7 +35,9 @@ actionButton <- input("Button")
 
 
 #' TextInput input
+#'
 #' @param inputId The input slot that will be used to access the value.
 #' @param ... Arguments to be passed to the underlying textInput function.
+#'
 #' @export
 TextInput <- input("TextInput")
