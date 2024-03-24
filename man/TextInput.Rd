@@ -10,6 +10,8 @@ TextInput(inputId, ..., value = default_value)
 \item{inputId}{The input slot that will be used to access the value.}
 
 \item{...}{Arguments to be passed to the underlying textInput function.}
+
+\item{value}{The initial value of the input.}
 }
 \description{
 TextInput input
