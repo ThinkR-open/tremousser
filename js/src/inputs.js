@@ -5,7 +5,7 @@ export const Button = ButtonAdapter(tremor.Button);
 
 export const TextInput = InputAdapter(tremor.TextInput, (value, setValue) => ({
   value: value,
-  onChange: (event) => {
+  onValueChange: (event) => {
     setValue(event.target.value);
   },
 }));

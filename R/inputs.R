@@ -16,7 +16,6 @@ input <- function(name, default_value = NULL) {
     )
   }
 }
-
 #' Button component
 #'
 #' @param ... Arguments to be passed to the underlying Button component.
@@ -34,7 +33,6 @@ Button <- component("Button")
 actionButton <- input("Button")
 
 
-
 #' TextInput input
 #'
 #' @param inputId The input slot that will be used to access the value.
@@ -43,3 +41,11 @@ actionButton <- input("Button")
 #'
 #' @export
 TextInput <- input("TextInput")
+
+
+#' Text component
+#'
+#' @param ... Arguments to be passed to the underlying Text component.
+#'
+#' @export
+Text <- component("Text")
