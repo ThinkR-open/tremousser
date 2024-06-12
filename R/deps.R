@@ -8,9 +8,9 @@
 tremousserDependency <- function() {
   htmlDependency(
     name = "tremousser",
-    version = "3.14.0",
+    version = "3.17.2",
     package = "tremousser",
-    src = "www/tremousser-3.14.0",
+    src = "www/tremousser",
     script = "tremousser.js"
   )
 }

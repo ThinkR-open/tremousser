@@ -5,7 +5,7 @@ const config = {
   entry: "./src/index.js",
   mode: "production",
   output: {
-    path: path.join(__dirname, "..", "inst", "www", "tremousser-3.14.0"),
+    path: path.join(__dirname, "..", "inst", "www", "tremousser"),
     filename: "tremousser.js",
   },
   module: {
@@ -13,10 +13,6 @@ const config = {
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
-      },
-      {
-        test: /\.(js|jsx)$/,
-        use: ["babel-loader"],
       },
     ],
   },
@@ -27,8 +23,6 @@ const config = {
   },
   performance: {
     hints: false,
-    maxEntrypointSize: 512000,
-    maxAssetSize: 512000,
   },
   stats: { colors: true },
 };
