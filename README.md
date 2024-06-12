@@ -38,16 +38,16 @@ shinyApp(
   ui = tagList(
     tags$body(
       class = "flex gap-x-1 items-center justify-center h-screen bg-gray-100",
-      actionButton(
+      trem_button(
         inputId = "button",
         "Click me..."
       ),
-      actionButton(
+      trem_button(
         inputId = "button2",
         variant = "secondary",
         "... or me"
       ),
-      actionButton(
+      trem_button(
         inputId = "button3",
         color = "pink",
         "even me!"
