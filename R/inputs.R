@@ -1,7 +1,21 @@
 #' @noRd
-#'
 #' @importFrom shiny.react reactElement asProps
-#'
+button <- function(name) {
+  function(inputId, ...) {
+    reactElement(
+      module = "@/tremor",
+      name = name,
+      props = asProps(
+        inputId = inputId,
+        ...
+      ),
+      deps = tremousserDependency()
+    )
+  }
+}
+
+#' @noRd
+#' @importFrom shiny.react reactElement asProps
 input <- function(name, default_value = NULL) {
   function(inputId, ..., value = default_value) {
     reactElement(
@@ -10,27 +24,22 @@ input <- function(name, default_value = NULL) {
       props = asProps(
         inputId = inputId,
         ...,
-        value = default_value
+        value = value
       ),
       deps = tremousserDependency()
     )
   }
 }
-#' Button component
-#'
-#' @param ... Arguments to be passed to the underlying Button component.
-#'
-#' @export
-Button <- component("Button")
+
+
 
 #' Button input
 #'
 #' @param inputId The input slot that will be used to access the value.
-#' @param value The initial value of the input.
-#' @param ... Arguments to be passed to the underlying actionButton function.
+#' @param ... Arguments to be passed to the actionButton.
 #'
 #' @export
-actionButton <- input("Button")
+trem_button <- button("Button")
 
 
 #' TextInput input
@@ -40,12 +49,4 @@ actionButton <- input("Button")
 #' @param ... Arguments to be passed to the underlying textInput function.
 #'
 #' @export
-TextInput <- input("TextInput")
-
-
-#' Text component
-#'
-#' @param ... Arguments to be passed to the underlying Text component.
-#'
-#' @export
-Text <- component("Text")
+trem_text_input <- input("TextInput", )
