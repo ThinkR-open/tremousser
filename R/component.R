@@ -13,10 +13,3 @@ component <- function(name) {
     )
   }
 }
-
-#' Text component
-#'
-#' @param ... Arguments to be passed to the underlying Text component.
-#'
-#' @export
-trem_text <- component("Text")
