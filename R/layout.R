@@ -71,3 +71,20 @@ trem_flex <- component("Flex")
 #' [Grid documentation](https://storybook.tremor.so/?path=/docs/ui-layout-grid--docs)
 #' @export
 trem_grid <- component("Grid")
+
+#' Dialog component
+#' @family layout
+#' @family dialog
+#' @param ... Additional arguments to be passed to the component.
+#' @references
+#' [Dialog documentation](https://storybook.tremor.so/?path=/story/ui-layout-dialog--default)
+#' @export
+trem_dialog <- component("Dialog")
+
+#' #' DialogPanel component
+#' @family dialog
+#' @param ... Additional arguments to be passed to the component.
+#' @references
+#' [DialogPanel documentation](https://storybook.tremor.so/?path=/story/ui-layout-dialog--default)
+#' @export
+trem_dialog_panel <- component("DialogPanel")

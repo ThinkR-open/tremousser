@@ -19,6 +19,7 @@ Flex component
 Other layout: 
 \code{\link{trem_accordion}()},
 \code{\link{trem_card}()},
+\code{\link{trem_dialog}()},
 \code{\link{trem_divider}()},
 \code{\link{trem_grid}()}
 }

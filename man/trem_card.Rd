@@ -18,6 +18,7 @@ Card component
 \seealso{
 Other layout: 
 \code{\link{trem_accordion}()},
+\code{\link{trem_dialog}()},
 \code{\link{trem_divider}()},
 \code{\link{trem_flex}()},
 \code{\link{trem_grid}()}
