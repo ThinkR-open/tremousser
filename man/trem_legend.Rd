@@ -4,9 +4,11 @@
 \alias{trem_legend}
 \title{Legend component}
 \usage{
-trem_legend(...)
+trem_legend(categories, ...)
 }
 \arguments{
+\item{categories}{Categories to be displayed in the legend}
+
 \item{...}{Additional arguments to be passed to the component.}
 }
 \description{

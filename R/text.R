@@ -30,13 +30,22 @@ trem_subtitle <- component("Subtitle")
 #' @export
 trem_metric <- component("Metric")
 
+#' @noRd
+trem_legend_ <- component("Legend")
+
 #' Legend component
 #' @family text
+#' @param categories Categories to be displayed in the legend
 #' @param ... Additional arguments to be passed to the component.
 #' @references
 #' [Legend documentation](https://storybook.tremor.so/?path=/docs/ui-text-legend--docs)
 #' @export
-trem_legend <- component("Legend")
+trem_legend <- function(categories, ...) {
+  trem_legend_(
+    categories = categories,
+    ...
+  )
+}
 
 #' @noRd
 trem_callout_ <- component("Callout")

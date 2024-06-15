@@ -18,6 +18,6 @@ trem_badge_delta <- component("BadgeDelta")
 #' @family icon
 #' @param ... Additional arguments to be passed to the component.
 #' @references
-#' [Icon documentation](https://storybook.tremor.so/?path=/docs/ui-icon-badgedelta--docs)
+#' [Icon documentation](https://storybook.tremor.so/?path=/docs/ui-icon-icon--docs)
 #' @export
 trem_icon <- component("Icon")

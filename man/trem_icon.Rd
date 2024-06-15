@@ -13,7 +13,7 @@ trem_icon(...)
 Icon component
 }
 \references{
-\href{https://storybook.tremor.so/?path=/docs/ui-icon-badgedelta--docs}{Icon documentation}
+\href{https://storybook.tremor.so/?path=/docs/ui-icon-icon--docs}{Icon documentation}
 }
 \seealso{
 Other icon: 
